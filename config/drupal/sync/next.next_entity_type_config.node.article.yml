@@ -1,0 +1,9 @@
+uuid: 4398ff6a-5cce-43bc-af2d-73081b0d8209
+langcode: en
+status: true
+dependencies: {  }
+id: node.article
+site_resolver: site_selector
+configuration:
+  sites:
+    blog: blog
