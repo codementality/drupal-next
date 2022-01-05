@@ -1,0 +1,14 @@
+uuid: cadce7d4-4986-468b-8c99-a9bb1d55ec03
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nextjs_site
+  module:
+    - user
+id: user_add_role_action.nextjs_site
+label: 'Add the Next.js Site role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nextjs_site
