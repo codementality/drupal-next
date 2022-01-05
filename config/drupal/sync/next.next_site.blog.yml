@@ -1,0 +1,9 @@
+uuid: 2c6db527-e97c-4216-9682-dc4a6ad61ace
+langcode: en
+status: true
+dependencies: {  }
+id: blog
+label: Blog
+base_url: 'https://drupal-next.ddev.site:3000'
+preview_url: 'https://drupal-next.ddev.site:3000'
+preview_secret: preview-secret-here
