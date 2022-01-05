@@ -6,8 +6,10 @@ webserver_type: nginx-fpm
 router_http_port: "80"
 router_https_port: "443"
 xdebug_enabled: false
-additional_hostnames: []
-additional_fqdns: []
+additional_hostnames:
+  - next-drupal
+additional_fqdns:
+  - ddev-drupal-next-web
 mariadb_version: "10.3"
 mysql_version: ""
 nfs_mount_enabled: false
